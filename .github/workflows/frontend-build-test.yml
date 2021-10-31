@@ -28,5 +28,5 @@ jobs:
         with:
           node-version: 14.x
       - run: |
-          npm i
+          npm install
           npm run build
