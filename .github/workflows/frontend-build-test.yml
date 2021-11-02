@@ -37,3 +37,4 @@ jobs:
       - name: run linters
         run: |
           npm run lint
+          git diff --exit-code pages 
